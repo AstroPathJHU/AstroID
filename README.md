@@ -1,6 +1,6 @@
 # AstroID
 
-Code for exporting clinical data from a REDCap build in *AstroID* format and pushing it into a MSSQL database. Note MSSQL uses `t-SQL`.
+Code for exporting clinical data from a REDCap build in *AstroID* format and pushing it into a MSSQL database (`t-SQL`).
 
 ## Contents
 
