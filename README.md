@@ -1,13 +1,13 @@
 # AstroID
 
-Code for exporting clinical data from a REDCap build in AstroID format and pushing it into a MSSQL database. Note MSSQL uses (t-SQL).
+Code for exporting clinical data from a REDCap build in AstroID format and pushing it into a MSSQL database. Note MSSQL uses `t-SQL`.
 
 ## Contents
 
 - *create_recap_tables_in_sql.ipynb*
   - Jupyter Notebook with code to export data from REDCap in AstroID format and import it into a temporary SQL database
 - REDCap-SQL
-  - Code to parse *redcap* tables from *ipynb* script SQL output tables and create more user friendly SQL tables for analysis
+  - Code to parse *redcap* tables from *ipynb* script SQL output tables and create more user-friendly SQL tables for analysis
 - *examples*
   - A folder with example analysis scripts using the SQL tables generated from *REDCAP-SQL* step and *AstroID*
   - example 1 (*densities*): aggregates cell type densities from an experimental database and pairs it to clinical data in a separate clinical database generated from a REDCap build in AstroID format
