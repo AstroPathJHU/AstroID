@@ -9,5 +9,6 @@ R02.1 -- Patch the inconsistent astroid, prefix with a P, may not be necessary l
 R03 -- Create the LoadColumns table, assemble all metadata to build computed columns
 R04 -- Load the data into the columns
 R05 -- Build the support to resolve enumerated fields, create computed columns
-R06 -- Parse log files
+R06 -- Parse log files (still in progress)
+
 
