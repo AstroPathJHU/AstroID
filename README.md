@@ -1,6 +1,6 @@
 # AstroID
 
-Code for exporting clinical data from a REDCap build in AstroID format and pushing it into a MSSQL database. Note MSSQL uses `t-SQL`.
+Code for exporting clinical data from a REDCap build in *AstroID* format and pushing it into a MSSQL database. Note MSSQL uses `t-SQL`.
 
 ## Contents
 
@@ -10,7 +10,7 @@ Code for exporting clinical data from a REDCap build in AstroID format and pushi
   - Directory with scripts to parse *redcap* tables from *ipynb* script SQL output tables and create more user-friendly SQL tables for analysis
 - *examples*
   - A folder with example analysis scripts using the SQL tables generated from *REDCAP-SQL* step and *AstroID*
-  - example 1 (*densities*): aggregates cell type densities from an experimental database and pairs it to clinical data in a separate clinical database generated from a REDCap build in AstroID format
+  - example 1 (*densities*): aggregates cell type densities from an experimental database and pairs it to clinical data in a separate clinical database generated from a REDCap build in *AstroID* format
   - example 2 (*irb report*): aggregates data from a clinical database generated from a REDCap build in *AstroID* format that could be used for an IRB report 
 
 ## Directions for export from REDCap into SQL
@@ -31,10 +31,10 @@ Code for exporting clinical data from a REDCap build in AstroID format and pushi
 There are two example queries in the *examples* folder.
 
 - example 1 (*densities*)
-  - Aggregates cell type densities from an experimental database and pairs it to clinical data in a separate clinical database generated from a REDCap build in AstroID format.
+  - Aggregates cell type densities from an experimental database and pairs it to clinical data in a separate clinical database generated from a REDCap build in *AstroID* format.
   - Contains a simple ".sql" script which can be run in a SQL management studio and outputs in ".csv" files.
 - example 2 (*irb report*)
-  - Aggregates data from a clinical database generated from a REDCap build in AstroID format that could be used for an IRB report.
+  - Aggregates data from a clinical database generated from a REDCap build in *AstroID* format that could be used for an IRB report.
   - Contains a ".sql" script that creates a function `dbo.fGetIRBReport()` which can be run as `select * from fGetIRBReport()` once the function is loaded into the database. It also contains an example "csv" output
 
 
